@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Engineering Manual</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="node_modules/skeleton-css/css/skeleton.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+<div class="container">
+    <div class="gameBoard" style="display: block;">
+        <center>
+            <br>
+            <h1 style="font-family: 나눔스퀘어 ExtraBold">나노 공학실</h1>
+            <h3 style="font-family: 나눔스퀘어 Bold">어떤 공구가 필요하세요?</h3>
+            <h4 style="font-family: 나눔스퀘어 Bold">각 위치에 공구가 담겨있습니다.</h4>
+            <h4 style="font-family: 나눔스퀘어">공구 이름에 다가가면 어떤 부품이 들어있는지 확인할 수 있습니다.</h4>
+            <h4 style="font-family: 나눔스퀘어">공구 이름을 클릭하면 사용 영상을 볼 수 있습니다.</h4>
+        </center>
+        <table class="center">
+            <tr>
+                <td><button class="tile" id="button_00" style="font-family: 나눔스퀘어"><a href="video01.mp4" target=_blank" title="센서 키트">
+                    아두이노 센서
+                </a></button></td>
+                <td><button class="tile" id="button_01" style="font-family: 나눔스퀘어"><a href="video02.mp4" target=_blank" title="LED/커패시터/아두이노 보드/전선">
+                    아두이노 부품
+                </a></button></td>
+            </tr>
+            <tr>
+                <td><button class="tile" id="button_10" style="font-family: 나눔스퀘어"><a href="video01.mp4" target=_blank" title="서류">
+                    서류함
+                </a></button></td>
+                <td><button class="tile" id="button_11" style="font-family: 나눔스퀘어"><a href="video02.mp4" target=_blank" title="색종이/접착제/글루건/테이프/필기구">
+                    문구류
+                </a></button></td>
+            </tr>
+            <tr>
+                <td><button class="tile" id="button_20" style="font-family: 나눔스퀘어"><a href="video01.mp4" target=_blank" title="못/베어링/용수철/WD40">
+                    부품
+                </a></button></td>
+                <td><button class="tile" id="button_21" style="font-family: 나눔스퀘어"><a href="video02.mp4" target=_blank" title="컴퍼스/가위/칼/송곳">
+                    절단류
+                </a></button></td>
+            </tr>
+            <tr>
+                <td><button class="tile" id="button_30" style="font-family: 나눔스퀘어"><a href="video01.mp4" target=_blank" title="인두/납땜/자">
+                    납땜/자
+                </a></button></td>
+                <td><button class="tile" id="button_31" style="font-family: 나눔스퀘어"><a href="video02.mp4" target=_blank" title="보드/PCB/멀티미터">
+                    전기회로
+                </a></button></td>
+            </tr>
+            <tr>
+                <td><button class="tile" id="button_40" style="font-family: 나눔스퀘어"><a href="video01.mp4" target=_blank" title="드라이버/니퍼">
+                    소공구
+                </a></button></td>
+                <td><button class="tile" id="button_41" style="font-family: 나눔스퀘어"><a href="video02.mp4" target=_blank" title="볼트/너트">
+                    볼트/너트
+                </a></button></td>
+            </tr>
+            <tr>
+                <td><button class="tile" id="button_50" style="font-family: 나눔스퀘어"><a href="video01.mp4" target=_blank" title="와이어스트리퍼/스패너&nbsp;펜치">
+                    중공구
+                </a></button></td>
+                <td><button class="tile" id="button_51" style="font-family: 나눔스퀘어"><a href="video02.mp4" target=_blank" title="전동드릴">
+                    전동드릴
+                </a></button></td>
+            </tr>
+        </table>
+        <br>
+        <center>
+            <h5 style="font-family: 나눔스퀘어; color: chocolate">세종과학예술영재학교 공학동아리</h5>
+            <h4  style="font-family: 나눔스퀘어; color: chocolate">GARAGE</h4>
+        </center>
+    </div>
+</div>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="nanoclient.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.tile{
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+    font-family: "나눔스퀘어 Bold";
+}
+
+.gameBoard{
+    display: none;
+}
+
+.center{
+    margin: 0 auto;
+}
